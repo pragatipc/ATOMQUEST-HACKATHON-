@@ -315,6 +315,3 @@ npm start       # run production server locally
 
 ---
 
-## License
-
-MIT
