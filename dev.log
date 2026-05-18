@@ -1,0 +1,1084 @@
+
+> goal-tracking-portal@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.9s (875 modules)
+ GET / 200 in 5539ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 1190ms (556 modules)
+ GET /api/auth/session 200 in 2787ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1236ms (900 modules)
+ GET /login?_rsc=g0rnx 200 in 68ms
+ ○ Compiling /api/auth/verify ...
+ ✓ Compiled /api/auth/verify in 520ms (598 modules)
+ POST /api/auth/verify 200 in 982ms
+ GET /api/auth/providers 200 in 785ms
+ GET /api/auth/csrf 200 in 26ms
+ POST /api/auth/callback/credentials 200 in 211ms
+ GET /api/auth/session 200 in 32ms
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 1409ms (175 modules)
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 1862ms (960 modules)
+ GET /admin/dashboard 200 in 2741ms
+ ○ Compiling /api/admin/completion ...
+ ✓ Compiled /api/admin/completion in 1742ms (627 modules)
+ ✓ Compiled (634 modules)
+ GET /api/auth/session 200 in 3642ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 4006ms
+ GET /api/notifications?limit=15 200 in 4013ms
+ GET /api/admin/stats 200 in 4013ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 359ms
+ GET /api/notifications?limit=15 200 in 391ms
+ GET /api/admin/stats 200 in 415ms
+ GET /api/auth/session 200 in 760ms
+ ○ Compiling /admin/users ...
+ ✓ Compiled /admin/users in 630ms (982 modules)
+ ✓ Compiled /api/admin/users in 291ms (643 modules)
+ GET /api/admin/users 200 in 446ms
+ GET /api/admin/users 200 in 70ms
+ GET /api/notifications?limit=15 200 in 44ms
+ ○ Compiling /admin/cycles ...
+ ✓ Compiled /admin/cycles in 1101ms (1004 modules)
+ GET /admin/cycles?_rsc=1brep 200 in 73ms
+ ○ Compiling /api/admin/cycles ...
+ ✓ Compiled /api/admin/cycles in 519ms (650 modules)
+ GET /api/admin/cycles 200 in 688ms
+ GET /api/admin/cycles 200 in 40ms
+ ○ Compiling /admin/goals ...
+ ✓ Compiled /admin/goals in 918ms (1015 modules)
+ GET /admin/goals?_rsc=16dhm 200 in 69ms
+ ✓ Compiled /api/goals in 368ms (657 modules)
+ GET /api/goals 200 in 533ms
+ GET /api/goals 200 in 51ms
+ GET /api/notifications?limit=15 200 in 54ms
+ ○ Compiling /admin/reports ...
+ ✓ Compiled /admin/reports in 1252ms (999 modules)
+ GET /admin/reports?_rsc=rdc1t 200 in 76ms
+ ○ Compiling /api/admin/reports ...
+ ✓ Compiled /api/admin/reports in 629ms (640 modules)
+ GET /api/goals 200 in 1221ms
+ GET /api/admin/reports?year=2026 200 in 1280ms
+ GET /api/goals 200 in 123ms
+ GET /api/admin/reports?year=2026 200 in 170ms
+ GET /api/notifications?limit=15 200 in 84ms
+ ○ Compiling /admin/completion ...
+ ✓ Compiled /admin/completion in 1094ms (992 modules)
+ GET /admin/completion?_rsc=1145f 200 in 94ms
+ ✓ Compiled /api/admin/completion in 394ms (631 modules)
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 605ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 70ms
+ GET /api/notifications?limit=15 200 in 67ms
+ ○ Compiling /admin/audit ...
+ ✓ Compiled /admin/audit in 1194ms (992 modules)
+ GET /admin/audit?_rsc=89n6w 200 in 73ms
+ ✓ Compiled /api/admin/audit in 462ms (629 modules)
+ GET /api/admin/audit 200 in 669ms
+ GET /api/admin/audit 200 in 69ms
+ ○ Compiling /admin/analytics ...
+ ✓ Compiled /admin/escalations in 16.2s (2035 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 370ms
+ ○ Compiling /api/admin/escalations ...
+ ✓ Compiled /api/admin/escalations in 864ms (1162 modules)
+ GET /api/admin/escalations 200 in 1248ms
+ GET /api/admin/escalations 200 in 130ms
+ GET /api/notifications?limit=15 200 in 66ms
+ GET /api/notifications?limit=15 200 in 95ms
+ GET /api/notifications?limit=15 200 in 51ms
+ GET /api/notifications?limit=15 200 in 50ms
+ GET /api/notifications?limit=15 200 in 51ms
+ GET /api/notifications?limit=15 200 in 61ms
+ GET /api/notifications?limit=15 200 in 45ms
+ GET /api/notifications?limit=15 200 in 64ms
+ GET /api/notifications?limit=15 200 in 64ms
+ GET /api/notifications?limit=15 200 in 148ms
+ GET /api/notifications?limit=15 200 in 75ms
+ GET /api/notifications?limit=15 200 in 59ms
+ GET /api/notifications?limit=15 200 in 60ms
+ GET /api/notifications?limit=15 200 in 52ms
+ GET /api/notifications?limit=15 200 in 60ms
+ GET /api/notifications?limit=15 200 in 53ms
+ GET /api/notifications?limit=15 200 in 59ms
+ GET /api/notifications?limit=15 200 in 57ms
+ GET /api/notifications?limit=15 200 in 56ms
+ GET /api/notifications?limit=15 200 in 56ms
+ GET /api/notifications?limit=15 200 in 60ms
+ GET /api/notifications?limit=15 200 in 56ms
+ GET /api/notifications?limit=15 200 in 65ms
+ GET /api/notifications?limit=15 200 in 69ms
+ GET /api/notifications?limit=15 200 in 54ms
+ GET /api/notifications?limit=15 200 in 75ms
+ GET /api/notifications?limit=15 200 in 50ms
+ GET /api/notifications?limit=15 200 in 69ms
+ GET /api/notifications?limit=15 200 in 56ms
+ GET /api/notifications?limit=15 200 in 53ms
+ GET /api/notifications?limit=15 200 in 42ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 5.6s (619 modules)
+ GET /api/auth/session 200 in 7030ms
+ GET /api/notifications?limit=15 200 in 35ms
+ GET /api/notifications?limit=15 200 in 76ms
+ GET /api/notifications?limit=15 200 in 61ms
+ GET /api/notifications?limit=15 200 in 930ms
+ GET /api/auth/session 200 in 928ms
+ GET /api/auth/csrf 200 in 909ms
+ POST /api/auth/signout 200 in 30ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1023ms (635 modules)
+ GET / 200 in 1567ms
+ GET /api/auth/session 200 in 1091ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1266ms (648 modules)
+ ✓ Compiled /api/auth/verify in 402ms (650 modules)
+ POST /api/auth/verify 200 in 758ms
+ GET /api/auth/providers 200 in 955ms
+ GET /api/auth/csrf 200 in 26ms
+ POST /api/auth/callback/credentials 200 in 228ms
+ GET /api/auth/session 200 in 38ms
+ ○ Compiling /manager/dashboard ...
+ ✓ Compiled /manager/dashboard in 4.1s (1552 modules)
+ GET /manager/dashboard 200 in 5389ms
+ ✓ Compiled in 1644ms (895 modules)
+ ○ Compiling /manager/approvals ...
+ ✓ Compiled /manager/approvals in 1012ms (1540 modules)
+ GET /manager/approvals 200 in 1399ms
+ ○ Compiling /api/manager/approvals ...
+ ✓ Compiled /api/manager/approvals in 805ms (660 modules)
+ GET /api/auth/session 200 in 2577ms
+ GET /api/notifications?limit=15 200 in 2624ms
+ GET /api/manager/approvals 200 in 2819ms
+ GET /api/notifications?limit=15 200 in 257ms
+ GET /api/manager/approvals 200 in 207ms
+ ✓ Compiled /api/manager/team in 463ms (662 modules)
+ GET /api/manager/approvals 200 in 1056ms
+ GET /api/manager/team 200 in 1104ms
+ GET /api/manager/approvals 200 in 101ms
+ GET /api/manager/team 200 in 90ms
+ GET /api/notifications?limit=15 200 in 86ms
+ GET /api/auth/session 200 in 923ms
+ GET /api/manager/approvals 200 in 53ms
+ GET /api/manager/approvals 200 in 47ms
+ ○ Compiling /manager/team ...
+ ✓ Compiled /manager/team in 1222ms (1543 modules)
+ GET /manager/team?_rsc=i0vud 200 in 84ms
+ GET /api/manager/team 200 in 68ms
+ GET /api/manager/team 200 in 47ms
+ ○ Compiling /manager/checkins ...
+ ✓ Compiled /manager/checkins in 1463ms (1535 modules)
+ GET /api/manager/team 200 in 64ms
+ GET /api/manager/team 200 in 112ms
+ ○ Compiling /api/achievements ...
+ ✓ Compiled /api/achievements in 854ms (650 modules)
+ ✓ Compiled (658 modules)
+ GET /api/achievements?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 1911ms
+ GET /api/checkins?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 1981ms
+ GET /api/goals?employeeId=6a09d517304892b2e4c9c577 200 in 2005ms
+ GET /api/achievements?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 210ms
+ GET /api/checkins?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 240ms
+ GET /api/goals?employeeId=6a09d517304892b2e4c9c577 200 in 173ms
+ GET /api/auth/csrf 200 in 917ms
+ POST /api/auth/signout 200 in 30ms
+ GET / 200 in 370ms
+ GET /api/auth/session 200 in 1011ms
+ ✓ Compiled /login in 412ms (666 modules)
+ ✓ Compiled /api/auth/verify in 429ms (668 modules)
+ POST /api/auth/verify 200 in 755ms
+ GET /api/auth/providers 200 in 958ms
+ GET /api/auth/csrf 200 in 38ms
+ POST /api/auth/callback/credentials 200 in 291ms
+ GET /api/auth/session 200 in 68ms
+ GET /manager/dashboard 200 in 598ms
+ GET /api/notifications?limit=15 200 in 1540ms
+ GET /api/auth/session 200 in 1485ms
+ GET /api/manager/team 200 in 1617ms
+ GET /api/manager/approvals 200 in 1673ms
+ GET /api/auth/csrf 200 in 302ms
+ GET /api/notifications?limit=15 200 in 367ms
+ GET /api/manager/team 200 in 347ms
+ GET /api/manager/approvals 200 in 325ms
+ POST /api/auth/signout 200 in 106ms
+ GET / 200 in 504ms
+ GET /api/auth/session 200 in 998ms
+ POST /api/auth/verify 200 in 254ms
+ GET /api/auth/providers 200 in 925ms
+ GET /api/auth/csrf 200 in 29ms
+ POST /api/auth/callback/credentials 200 in 218ms
+ GET /api/auth/session 200 in 40ms
+ ✓ Compiled /admin/dashboard in 421ms (666 modules)
+ GET /admin/dashboard 200 in 715ms
+ ○ Compiling /api/admin/completion ...
+ ✓ Compiled /api/admin/completion in 633ms (668 modules)
+ ✓ Compiled (670 modules)
+ GET /api/auth/session 200 in 2627ms
+ GET /api/notifications?limit=15 200 in 2668ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 2783ms
+ GET /api/admin/stats 200 in 2795ms
+ GET /api/notifications?limit=15 200 in 414ms
+ GET /api/admin/stats 200 in 374ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 407ms
+ ✓ Compiled /admin/users in 467ms (674 modules)
+ ✓ Compiled /api/admin/users in 453ms (676 modules)
+ GET /api/admin/users 200 in 616ms
+ GET /api/admin/users 200 in 61ms
+ ✓ Compiled /admin/cycles in 454ms (680 modules)
+ ○ Compiling /api/admin/cycles ...
+ ✓ Compiled /api/admin/cycles in 613ms (683 modules)
+ GET /api/admin/cycles 200 in 798ms
+ GET /api/admin/cycles 200 in 46ms
+ ○ Compiling /admin/goals ...
+ ✓ Compiled /admin/goals in 543ms (687 modules)
+ GET /api/goals 200 in 65ms
+ GET /api/goals 200 in 60ms
+ ○ Compiling /admin/reports ...
+ ✓ Compiled /admin/reports in 551ms (691 modules)
+ ○ Compiling /api/admin/reports ...
+ ✓ Compiled /api/admin/reports in 565ms (693 modules)
+ GET /api/goals 200 in 1398ms
+ GET /api/admin/reports?year=2026 200 in 1455ms
+ GET /api/goals 200 in 115ms
+ GET /api/admin/reports?year=2026 200 in 89ms
+ GET /api/notifications?limit=15 200 in 60ms
+ GET /api/notifications?limit=15 200 in 73ms
+ GET /api/auth/session 200 in 931ms
+ ✓ Compiled /admin/completion in 463ms (638 modules)
+ ✓ Compiled /api/admin/completion in 419ms (641 modules)
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 753ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 119ms
+ GET /api/auth/session 200 in 916ms
+ ○ Compiling /admin/audit ...
+ ✓ Compiled /admin/audit in 970ms (626 modules)
+ ✓ Compiled /api/admin/audit in 462ms (629 modules)
+ GET /api/admin/audit 200 in 856ms
+ GET /api/admin/audit 200 in 108ms
+ ○ Compiling /admin/analytics ...
+ ✓ Compiled /admin/analytics in 1800ms (1150 modules)
+ ○ Compiling /admin/escalations ...
+ ✓ Compiled /admin/escalations in 1355ms (1158 modules)
+ GET /api/notifications?limit=15 200 in 143ms
+ ○ Compiling /api/admin/analytics ...
+ ✓ Compiled /api/admin/analytics in 1055ms (1160 modules)
+ GET /api/admin/analytics 200 in 1352ms
+ GET /api/admin/analytics 200 in 197ms
+ GET /api/notifications?limit=15 200 in 1026ms
+ GET /api/auth/session 200 in 995ms
+ GET /api/auth/session 200 in 980ms
+ GET /api/notifications?limit=15 200 in 80ms
+ GET /api/notifications?limit=15 200 in 83ms
+ GET /api/notifications?limit=15 200 in 72ms
+ GET /api/notifications?limit=15 200 in 68ms
+ GET /api/notifications?limit=15 200 in 965ms
+ GET /api/auth/session 200 in 942ms
+ GET /api/auth/csrf 200 in 906ms
+ POST /api/auth/signout 200 in 36ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1297ms (1147 modules)
+ GET / 200 in 1963ms
+ GET /api/auth/session 200 in 969ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 731ms (1156 modules)
+ ✓ Compiled /api/auth/verify in 401ms (1153 modules)
+ POST /api/auth/verify 200 in 661ms
+ GET /api/auth/providers 200 in 694ms
+ GET /api/auth/csrf 200 in 29ms
+ POST /api/auth/callback/credentials 200 in 112ms
+ GET /api/auth/session 200 in 31ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.1s (2073 modules)
+ GET /dashboard 200 in 2564ms
+ ○ Compiling /api/achievements ...
+ ✓ Compiled /api/achievements in 635ms (1168 modules)
+ ✓ Compiled (1172 modules)
+ GET /api/auth/session 200 in 2026ms
+ GET /api/notifications?limit=15 200 in 2065ms
+ GET /api/achievements?quarter=Q2&year=2026 200 in 2133ms
+ GET /api/goals 200 in 2137ms
+ GET /api/notifications?limit=15 200 in 138ms
+ GET /api/achievements?quarter=Q2&year=2026 200 in 89ms
+ GET /api/goals 200 in 104ms
+ ○ Compiling /goals ...
+ ✓ Compiled /goals in 1240ms (2089 modules)
+ GET /goals?_rsc=1fdgq 200 in 70ms
+ GET /api/goals 200 in 71ms
+ GET /api/notifications?limit=15 200 in 91ms
+ GET /api/goals 200 in 60ms
+ GET /api/notifications?limit=15 200 in 55ms
+ ○ Compiling /goals/new ...
+ ✓ Compiled /goals/new in 960ms (2082 modules)
+ GET /api/goals 200 in 70ms
+ GET /api/goals 200 in 48ms
+ GET /api/notifications?limit=15 200 in 77ms
+ GET /api/auth/session 200 in 726ms
+ GET /api/notifications?limit=15 200 in 88ms
+ GET /api/notifications?limit=15 200 in 78ms
+ GET /api/notifications?limit=15 200 in 85ms
+ GET /api/auth/session 200 in 771ms
+ GET /api/notifications?limit=15 200 in 53ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 73ms
+ GET /api/auth/session 200 in 748ms
+ GET /api/notifications?limit=15 200 in 34ms
+ GET /api/notifications?limit=15 200 in 36ms
+ ✓ Compiled in 860ms (917 modules)
+ ✓ Compiled in 520ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 461ms
+ GET /goals/new?_rsc=gngna 200 in 28ms
+ GET /api/notifications?limit=15 200 in 29ms
+ ✓ Compiled in 285ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 33ms
+ GET /api/notifications?limit=15 200 in 20ms
+ ✓ Compiled in 330ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 30ms
+ ✓ Compiled in 239ms (917 modules)
+ ✓ Compiled in 258ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 121ms
+ GET /goals/new?_rsc=gngna 200 in 38ms
+ ✓ Compiled in 1963ms (1563 modules)
+ GET /goals/new?_rsc=gngna 200 in 288ms
+ ✓ Compiled in 609ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 80ms
+ ✓ Compiled /api/auth/[...nextauth] in 290ms (648 modules)
+ GET /api/auth/session 200 in 1043ms
+ ✓ Compiled in 509ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 71ms
+ ✓ Compiled in 571ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 40ms
+ GET /api/notifications?limit=15 200 in 47ms
+ ✓ Compiled in 574ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 62ms
+ GET /api/auth/session 200 in 699ms
+ GET /api/notifications?limit=15 200 in 88ms
+ ✓ Compiled in 729ms (917 modules)
+ ✓ Compiled in 676ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 242ms
+ GET /goals/new?_rsc=gngna 200 in 50ms
+ GET /api/notifications?limit=15 200 in 55ms
+ GET /api/auth/session 200 in 701ms
+ GET /api/notifications?limit=15 200 in 27ms
+ ✓ Compiled in 296ms (917 modules)
+ GET /goals/new?_rsc=gngna 200 in 30ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 741ms (1563 modules)
+ ⨯ app\goals\new\page.tsx (19:33) @ CircleDot
+ ⨯ ReferenceError: CircleDot is not defined
+    at eval (./app/goals/new/page.tsx:58:15)
+    at (ssr)/./app/goals/new/page.tsx (C:\Users\ASUS\Desktop\web\hackthon\.next\server\app\goals\new\page.js:271:1)
+    at Object.__webpack_require__ [as require] (C:\Users\ASUS\Desktop\web\hackthon\.next\server\webpack-runtime.js:33:43)
+digest: "243666200"
+[0m [90m 17 |[39m   { value[33m:[39m [32m'numeric_max'[39m[33m,[39m icon[33m:[39m [33mTrendingDown[39m[33m,[39m label[33m:[39m [32m'Lower is better'[39m[33m,[39m  desc[33m:[39m [32m'Cost, defects, turnaround'[39m[33m,[39m color[33m:[39m [32m'border-violet-200 bg-violet-50 text-violet-700 hover:border-violet-400'[39m }[33m,[39m[0m
+[0m [90m 18 |[39m   { value[33m:[39m [32m'timeline'[39m[33m,[39m    icon[33m:[39m [33mCalendar[39m[33m,[39m     label[33m:[39m [32m'Complete by date'[39m[33m,[39m desc[33m:[39m [32m'Task or project deadline'[39m[33m,[39m  color[33m:[39m [32m'border-emerald-200 bg-emerald-50 text-emerald-700 hover:border-emerald-400'[39m }[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 19 |[39m   { value[33m:[39m [32m'zero'[39m[33m,[39m        icon[33m:[39m [33mCircleDot[39m[33m,[39m    label[33m:[39m [32m'Target is zero'[39m[33m,[39m   desc[33m:[39m [32m'Zero incidents, zero errors'[39m[33m,[39m color[33m:[39m [32m'border-amber-200 bg-amber-50 text-amber-700 hover:border-amber-400'[39m }[33m,[39m[0m
+[0m [90m    |[39m                                 [31m[1m^[22m[39m[0m
+[0m [90m 20 |[39m ][33m;[39m[0m
+[0m [90m 21 |[39m[0m
+[0m [90m 22 |[39m [36mconst[39m [33mSTEPS[39m [33m=[39m [[32m'Details'[39m[33m,[39m [32m'Target & Weight'[39m[33m,[39m [32m'Review'[39m][33m;[39m[0m
+ GET /goals/new 500 in 256ms
+ ✓ Compiled in 544ms (1563 modules)
+ GET /goals/new 200 in 159ms
+ ○ Compiling /api/goals ...
+ ✓ Compiled /api/goals in 576ms (650 modules)
+ GET /api/auth/session 200 in 1672ms
+ GET /api/notifications?limit=15 200 in 1707ms
+ GET /api/goals 200 in 1762ms
+ GET /api/notifications?limit=15 200 in 90ms
+ GET /api/goals 200 in 67ms
+ GET /api/auth/session 200 in 669ms
+ GET /api/auth/csrf 200 in 723ms
+ POST /api/auth/signout 200 in 38ms
+ GET / 200 in 198ms
+ GET /api/auth/session 200 in 738ms
+ ✓ Compiled /api/auth/verify in 351ms (652 modules)
+ POST /api/auth/verify 200 in 599ms
+ GET /api/auth/providers 200 in 1037ms
+ GET /api/auth/csrf 200 in 236ms
+ ✓ Compiled in 1601ms (1568 modules)
+ ✓ Compiled in 1ms (652 modules)
+ ✓ Compiled in 0ms (652 modules)
+ ✓ Compiled in 0ms (652 modules)
+ POST /api/auth/callback/credentials 200 in 2279ms
+ ✓ Compiled in 1ms (652 modules)
+ GET /login?_rsc=g0rnx 200 in 2404ms
+ GET /api/auth/session 200 in 1355ms
+ ✓ Compiled /admin/dashboard in 482ms (658 modules)
+ GET /admin/dashboard 200 in 774ms
+ GET /api/notifications?limit=15 200 in 147ms
+ ✓ Compiled /api/admin/completion in 401ms (662 modules)
+ ✓ Compiled (664 modules)
+ GET /api/auth/session 200 in 1589ms
+ GET /api/notifications?limit=15 200 in 1546ms
+ GET /api/admin/stats 200 in 1716ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 1720ms
+ GET /api/admin/stats 200 in 105ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 126ms
+ ○ Compiling /admin/reports ...
+ ✓ Compiled /admin/reports in 639ms (669 modules)
+ ✓ Compiled /api/admin/reports in 444ms (671 modules)
+ GET /api/goals 200 in 910ms
+ GET /api/admin/reports?year=2026 200 in 953ms
+ GET /api/goals 200 in 77ms
+ GET /api/admin/reports?year=2026 200 in 73ms
+ ○ Compiling /admin/completion ...
+ ✓ Compiled /admin/completion in 576ms (675 modules)
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 97ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 66ms
+ GET /api/notifications?limit=15 200 in 60ms
+ ○ Compiling /admin/analytics ...
+ ✓ Compiled /admin/analytics in 1752ms (1189 modules)
+ ○ Compiling /api/admin/analytics ...
+ ✓ Compiled /api/admin/analytics in 629ms (1191 modules)
+ GET /api/admin/analytics 200 in 816ms
+ GET /api/admin/analytics 200 in 63ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 131ms
+ GET /api/admin/stats 200 in 146ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 90ms
+ GET /api/admin/stats 200 in 86ms
+ GET /api/auth/csrf 200 in 691ms
+ POST /api/auth/signout 200 in 41ms
+ GET / 200 in 241ms
+ GET /api/auth/session 200 in 698ms
+ POST /api/auth/verify 200 in 165ms
+ GET /api/auth/providers 200 in 572ms
+ GET /api/auth/csrf 200 in 48ms
+ POST /api/auth/callback/credentials 200 in 156ms
+ GET /api/auth/session 200 in 43ms
+ ○ Compiling /manager/dashboard ...
+ ✓ Compiled /manager/dashboard in 812ms (1190 modules)
+ GET /manager/dashboard 200 in 1168ms
+ ○ Compiling /api/manager/approvals ...
+ ✓ Compiled /api/manager/approvals in 701ms (1192 modules)
+ ✓ Compiled (1194 modules)
+ GET /api/auth/session 200 in 2088ms
+ GET /api/notifications?limit=15 200 in 2128ms
+ GET /api/manager/team 200 in 2197ms
+ GET /api/manager/approvals 200 in 2203ms
+ GET /api/notifications?limit=15 200 in 153ms
+ GET /api/manager/team 200 in 114ms
+ GET /api/manager/approvals 200 in 127ms
+ ○ Compiling /manager/approvals ...
+ ✓ Compiled /manager/approvals in 533ms (1189 modules)
+ GET /api/manager/approvals 200 in 76ms
+ GET /api/manager/approvals 200 in 69ms
+ ○ Compiling /api/admin/goals/approve ...
+ ✓ Compiled /api/admin/goals/approve in 690ms (1194 modules)
+[Email skipped — fake address] neha@company.com
+ POST /api/admin/goals/approve 200 in 893ms
+[Email skipped — fake address] neha@company.com
+ POST /api/admin/goals/approve 200 in 78ms
+[Email skipped — fake address] neha@company.com
+ POST /api/admin/goals/approve 200 in 68ms
+[Email skipped — fake address] neha@company.com
+ POST /api/admin/goals/approve 200 in 76ms
+ GET /api/manager/approvals 200 in 62ms
+ GET /api/manager/approvals 200 in 107ms
+ GET /api/manager/team 200 in 132ms
+ GET /api/manager/approvals 200 in 105ms
+ GET /api/manager/team 200 in 92ms
+ GET /api/notifications?limit=15 200 in 57ms
+ GET /api/manager/approvals 200 in 64ms
+ GET /api/manager/approvals 200 in 64ms
+ ✓ Compiled /manager/team in 522ms (1190 modules)
+ GET /api/manager/team 200 in 89ms
+ GET /api/manager/team 200 in 59ms
+ ○ Compiling /manager/checkins ...
+ ✓ Compiled /manager/checkins in 610ms (1194 modules)
+ GET /api/manager/team 200 in 77ms
+ GET /api/manager/team 200 in 178ms
+ ○ Compiling /api/checkins ...
+ ✓ Compiled /api/checkins in 564ms (1196 modules)
+ ✓ Compiled (1201 modules)
+ GET /api/achievements?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 1406ms
+ GET /api/checkins?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 1404ms
+ GET /api/goals?employeeId=6a09d517304892b2e4c9c577 200 in 1418ms
+ GET /api/achievements?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 79ms
+ GET /api/checkins?employeeId=6a09d517304892b2e4c9c577&quarter=Q2&year=2026 200 in 97ms
+ GET /api/goals?employeeId=6a09d517304892b2e4c9c577 200 in 102ms
+ POST /api/checkins 201 in 80ms
+ POST /api/checkins 201 in 69ms
+ POST /api/checkins 201 in 72ms
+ GET /api/notifications?limit=15 200 in 53ms
+ ○ Compiling /manager/shared-goals ...
+ ✓ Compiled /manager/shared-goals in 1321ms (1566 modules)
+ GET /manager/shared-goals?_rsc=129fc 200 in 91ms
+ GET /api/manager/team 200 in 63ms
+ GET /api/manager/team 200 in 48ms
+ ✓ Compiled /api/auth/[...nextauth] in 447ms (635 modules)
+ GET /api/auth/session 200 in 1276ms
+ GET /api/notifications?limit=15 200 in 89ms
+ GET /api/notifications?limit=15 200 in 76ms
+ GET /api/notifications?limit=15 200 in 73ms
+ GET /api/notifications?limit=15 200 in 79ms
+ GET /api/auth/session 200 in 716ms
+ GET /api/manager/team 200 in 116ms
+ GET /api/manager/approvals 200 in 140ms
+ GET /api/manager/team 200 in 120ms
+ GET /api/manager/approvals 200 in 111ms
+ GET /api/notifications?limit=15 200 in 29ms
+ GET /api/auth/session 200 in 732ms
+ GET /api/notifications?limit=15 200 in 72ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 89ms
+ ✓ Compiled in 864ms (918 modules)
+ ✓ Compiled in 600ms (918 modules)
+ GET /manager/dashboard?_rsc=1mcnc 200 in 278ms
+ GET /manager/dashboard?_rsc=1mcnc 200 in 42ms
+ GET /api/notifications?limit=15 200 in 788ms
+ GET /api/auth/session 200 in 768ms
+ GET /api/notifications?limit=15 200 in 74ms
+ GET /api/notifications?limit=15 200 in 88ms
+ GET /api/notifications?limit=15 200 in 87ms
+ ✓ Compiled in 399ms (918 modules)
+ ✓ Compiled in 243ms (918 modules)
+ GET /manager/dashboard?_rsc=1mcnc 200 in 112ms
+ GET /manager/dashboard?_rsc=1mcnc 200 in 39ms
+ GET /api/notifications?limit=15 200 in 23ms
+ ✓ Compiled in 348ms (918 modules)
+ GET /manager/dashboard?_rsc=1mcnc 200 in 24ms
+ ✓ Compiled in 622ms (918 modules)
+ ✓ Compiled in 580ms (918 modules)
+ GET /manager/dashboard?_rsc=1mcnc 200 in 302ms
+ GET /manager/dashboard?_rsc=1mcnc 200 in 60ms
+ ✓ Compiled in 597ms (918 modules)
+ GET /manager/dashboard?_rsc=1mcnc 200 in 54ms
+ GET /api/notifications?limit=15 200 in 65ms
+ GET /api/auth/session 200 in 725ms
+ GET /api/auth/csrf 200 in 695ms
+ POST /api/auth/signout 200 in 56ms
+ ○ Compiling / ...
+ ✓ Compiled / in 564ms (636 modules)
+ GET / 200 in 1001ms
+ GET /api/auth/session 200 in 684ms
+ ✓ Compiled /login in 348ms (647 modules)
+ ○ Compiling /api/auth/verify ...
+ ✓ Compiled /api/auth/verify in 617ms (649 modules)
+ POST /api/auth/verify 200 in 889ms
+ GET /api/auth/providers 200 in 708ms
+ GET /api/auth/csrf 200 in 33ms
+ POST /api/auth/callback/credentials 200 in 164ms
+ GET /api/auth/session 200 in 42ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1035ms (660 modules)
+ GET /dashboard 200 in 1390ms
+ GET /api/notifications?limit=15 200 in 169ms
+ ○ Compiling /api/goals ...
+ ✓ Compiled /api/goals in 674ms (665 modules)
+ ✓ Compiled (667 modules)
+ GET /api/auth/session 200 in 1910ms
+ GET /api/achievements?quarter=Q2&year=2026 200 in 2010ms
+ GET /api/goals 200 in 2030ms
+ GET /api/notifications?limit=15 200 in 1846ms
+ GET /api/achievements?quarter=Q2&year=2026 200 in 52ms
+ GET /api/goals 200 in 64ms
+ GET /api/notifications?limit=15 200 in 100ms
+ ○ Compiling /goals/new ...
+ ✓ Compiled /goals/new in 906ms (671 modules)
+ GET /api/notifications?limit=15 200 in 91ms
+ GET /api/goals 200 in 103ms
+ GET /api/notifications?limit=15 200 in 81ms
+ GET /api/goals 200 in 99ms
+ GET /api/auth/csrf 200 in 691ms
+ POST /api/auth/signout 200 in 50ms
+ GET / 200 in 183ms
+ GET /api/auth/session 200 in 701ms
+ POST /api/auth/verify 200 in 208ms
+ GET /api/auth/providers 200 in 679ms
+ GET /api/auth/csrf 200 in 45ms
+ POST /api/auth/callback/credentials 200 in 187ms
+ GET /api/auth/session 200 in 47ms
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 1180ms (640 modules)
+ GET /admin/dashboard 200 in 1689ms
+ ✓ Compiled /api/admin/completion in 202ms (643 modules)
+ ✓ Compiled (650 modules)
+ GET /api/auth/session 200 in 1435ms
+ GET /api/notifications?limit=15 200 in 1461ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 1478ms
+ GET /api/admin/stats 200 in 1483ms
+ GET /api/notifications?limit=15 200 in 61ms
+ GET /api/admin/stats 200 in 65ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 68ms
+ GET /api/auth/session 200 in 697ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/auth/session 200 in 708ms
+ ○ Compiling /admin/analytics ...
+ ✓ Compiled /admin/analytics in 1759ms (1167 modules)
+ ○ Compiling /api/admin/analytics ...
+ ✓ Compiled /api/admin/analytics in 548ms (1169 modules)
+ GET /api/admin/analytics 200 in 743ms
+ GET /api/admin/analytics 200 in 56ms
+ GET /api/notifications?limit=15 200 in 94ms
+ GET /api/auth/session 200 in 725ms
+ GET /api/notifications?limit=15 200 in 69ms
+ GET /api/notifications?limit=15 200 in 96ms
+ ✓ Compiled in 2.8s (2245 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 2398ms
+ GET /admin/analytics?_rsc=7569r 200 in 83ms
+ ✓ Compiled in 1596ms (2231 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 1269ms
+ GET /admin/analytics?_rsc=7569r 200 in 66ms
+ GET /api/notifications?limit=15 200 in 96ms
+ ✓ Compiled in 1753ms (2229 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 1337ms
+ GET /admin/analytics?_rsc=7569r 200 in 80ms
+ ✓ Compiled in 1627ms (2229 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 1205ms
+ GET /admin/analytics?_rsc=7569r 200 in 68ms
+ ✓ Compiled in 1746ms (2229 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 1332ms
+ GET /admin/analytics?_rsc=7569r 200 in 83ms
+ GET /api/notifications?limit=15 200 in 92ms
+ GET /api/notifications?limit=15 200 in 109ms
+ ✓ Compiled in 706ms (918 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 36ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 922ms (1152 modules)
+ GET /api/auth/session 200 in 1835ms
+ GET /api/notifications?limit=15 200 in 94ms
+ GET /api/notifications?limit=15 200 in 105ms
+ GET /api/notifications?limit=15 200 in 81ms
+ GET /api/notifications?limit=15 200 in 106ms
+ GET /api/notifications?limit=15 200 in 117ms
+ GET /api/notifications?limit=15 200 in 105ms
+ GET /api/notifications?limit=15 200 in 101ms
+ GET /api/notifications?limit=15 200 in 100ms
+ GET /api/notifications?limit=15 200 in 113ms
+ GET /api/notifications?limit=15 200 in 106ms
+ GET /api/notifications?limit=15 200 in 93ms
+ GET /api/notifications?limit=15 200 in 111ms
+ GET /api/notifications?limit=15 200 in 102ms
+ GET /api/notifications?limit=15 200 in 104ms
+ GET /api/notifications?limit=15 200 in 103ms
+ GET /api/notifications?limit=15 200 in 88ms
+ GET /api/notifications?limit=15 200 in 110ms
+ GET /api/notifications?limit=15 200 in 104ms
+ GET /api/notifications?limit=15 200 in 91ms
+ GET /api/notifications?limit=15 200 in 103ms
+ GET /api/notifications?limit=15 200 in 98ms
+ GET /api/notifications?limit=15 200 in 142ms
+ GET /api/auth/session 200 in 771ms
+ GET /api/notifications?limit=15 200 in 88ms
+ GET /api/notifications?limit=15 200 in 100ms
+ GET /api/auth/session 200 in 723ms
+ GET /api/notifications?limit=15 200 in 96ms
+ GET /api/notifications?limit=15 200 in 83ms
+ GET /api/notifications?limit=15 200 in 83ms
+ GET /api/notifications?limit=15 200 in 92ms
+ GET /api/notifications?limit=15 200 in 186ms
+ GET /api/notifications?limit=15 200 in 93ms
+ GET /api/notifications?limit=15 200 in 79ms
+ GET /api/notifications?limit=15 200 in 93ms
+ GET /api/notifications?limit=15 200 in 92ms
+ GET /api/notifications?limit=15 200 in 93ms
+ GET /api/notifications?limit=15 200 in 108ms
+ GET /api/notifications?limit=15 200 in 101ms
+ GET /api/notifications?limit=15 200 in 122ms
+ GET /api/notifications?limit=15 200 in 109ms
+ GET /api/notifications?limit=15 200 in 101ms
+ GET /api/notifications?limit=15 200 in 108ms
+ GET /api/notifications?limit=15 200 in 99ms
+ GET /api/notifications?limit=15 200 in 100ms
+ GET /api/notifications?limit=15 200 in 210ms
+ GET /api/auth/session 200 in 863ms
+ GET /api/notifications?limit=15 200 in 77ms
+ GET /api/auth/session 200 in 761ms
+ GET /api/notifications?limit=15 200 in 89ms
+ GET /api/auth/session 200 in 1209ms
+ GET /api/notifications?limit=15 200 in 70ms
+ GET /api/notifications?limit=15 200 in 110ms
+ GET /api/notifications?limit=15 200 in 99ms
+ GET /api/notifications?limit=15 200 in 113ms
+ GET /api/notifications?limit=15 200 in 102ms
+ GET /api/notifications?limit=15 200 in 109ms
+ GET /api/notifications?limit=15 200 in 100ms
+ GET /api/notifications?limit=15 200 in 99ms
+ GET /api/notifications?limit=15 200 in 97ms
+ GET /api/notifications?limit=15 200 in 214ms
+ GET /api/notifications?limit=15 200 in 89ms
+ GET /api/notifications?limit=15 200 in 94ms
+ GET /api/notifications?limit=15 200 in 78ms
+ GET /api/notifications?limit=15 200 in 98ms
+ GET /api/notifications?limit=15 200 in 112ms
+ GET /api/notifications?limit=15 200 in 82ms
+ ✓ Compiled in 935ms (918 modules)
+ ✓ Compiled in 766ms (918 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 358ms
+ GET /admin/analytics?_rsc=7569r 200 in 70ms
+ GET /api/notifications?limit=15 200 in 67ms
+ GET /api/auth/session 200 in 804ms
+ ✓ Compiled in 580ms (918 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 80ms
+ ○ Compiling /api/admin/completion ...
+ ✓ Compiled /api/admin/completion in 1396ms (1157 modules)
+ ✓ Compiled (1159 modules)
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 2243ms
+ GET /api/admin/stats 200 in 2259ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 331ms
+ GET /api/admin/stats 200 in 355ms
+ ✓ Compiled in 1428ms (918 modules)
+ GET /api/notifications?limit=15 200 in 327ms
+ GET /admin/dashboard?_rsc=ni5m1 200 in 386ms
+ ✓ Compiled in 556ms (918 modules)
+ GET /admin/dashboard?_rsc=ni5m1 200 in 68ms
+ ✓ Compiled in 722ms (918 modules)
+ GET /admin/dashboard?_rsc=ni5m1 200 in 79ms
+ ○ Compiling /admin/users ...
+ ✓ Compiled /admin/users in 925ms (1164 modules)
+ ○ Compiling /api/admin/users ...
+ ✓ Compiled /api/admin/users in 536ms (1166 modules)
+ GET /api/admin/users 200 in 794ms
+ GET /api/admin/users 200 in 65ms
+ GET /api/admin/stats 200 in 150ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 183ms
+ GET /api/admin/stats 200 in 141ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 121ms
+ GET /api/notifications?limit=15 200 in 46ms
+ GET /api/notifications?limit=15 200 in 58ms
+ GET /api/auth/session 200 in 844ms
+ ○ Compiling /admin/escalations ...
+ ✓ Compiled /admin/escalations in 778ms (1162 modules)
+ ○ Compiling /api/escalations/rules ...
+ ✓ Compiled /api/escalations/rules in 1406ms (1165 modules)
+ ✓ Compiled (1168 modules)
+ GET /api/escalations/rules 200 in 4810ms
+ GET /api/escalations/logs 200 in 4857ms
+ GET /api/escalations/rules 200 in 283ms
+ GET /api/escalations/logs 200 in 279ms
+ GET /api/notifications?limit=15 200 in 86ms
+ GET /api/notifications?limit=15 200 in 61ms
+ GET /api/auth/session 200 in 714ms
+ ○ Compiling /api/escalations/rules/[id] ...
+ ✓ Compiled /api/escalations/rules/[id] in 917ms (1151 modules)
+ PUT /api/escalations/rules/6a09d517304892b2e4c9c585 200 in 3432ms
+ GET /api/escalations/rules 200 in 68ms
+ GET /api/notifications?limit=15 200 in 41ms
+ GET /api/notifications?limit=15 200 in 81ms
+ GET /api/notifications?limit=15 200 in 37ms
+ GET /api/auth/session 200 in 913ms
+ GET /api/auth/session 200 in 725ms
+ GET /api/auth/session 200 in 738ms
+ GET /api/notifications?limit=15 200 in 53ms
+ GET /api/auth/session 200 in 708ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/auth/session 200 in 742ms
+ GET /api/notifications?limit=15 200 in 38ms
+ ✓ Compiled in 906ms (2061 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 92ms
+ GET /api/notifications?limit=15 200 in 39ms
+ GET /api/auth/session 200 in 730ms
+ GET /admin/escalations 200 in 341ms
+ GET /api/notifications?limit=15 200 in 161ms
+ ○ Compiling /api/escalations/logs ...
+ ✓ Compiled /api/escalations/logs in 518ms (1146 modules)
+ ✓ Compiled in 5ms (1149 modules)
+ GET /api/auth/session 200 in 2879ms
+ ✓ Compiled in 1ms (1149 modules)
+ ✓ Compiled in 1ms (1149 modules)
+ GET /api/escalations/rules 200 in 4685ms
+ GET /api/notifications?limit=15 200 in 4523ms
+ ✓ Compiled in 1ms (1149 modules)
+ GET /api/escalations/logs 200 in 5682ms
+ GET /admin/escalations?_rsc=j2mph 200 in 5023ms
+ ✓ Compiled in 0ms (1149 modules)
+ ✓ Compiled /api/escalations/run in 0ms (1149 modules)
+ ✓ Compiled in 0ms (1158 modules)
+ GET /api/escalations/rules 200 in 5105ms
+ GET /api/escalations/logs 200 in 4770ms
+ POST /api/escalations/run 200 in 3845ms
+ GET /api/escalations/logs 200 in 62ms
+ GET /api/notifications?limit=15 200 in 52ms
+ GET /api/auth/session 200 in 748ms
+ ✓ Compiled in 3.1s (2251 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 2794ms
+ GET /admin/escalations?_rsc=j2mph 200 in 65ms
+ GET /api/notifications?limit=15 200 in 95ms
+ ✓ Compiled in 2.2s (2251 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 1895ms
+ GET /admin/escalations?_rsc=j2mph 200 in 92ms
+ ✓ Compiled in 2.9s (2061 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 286ms
+ GET /api/notifications?limit=15 200 in 104ms
+ GET /api/auth/session 200 in 835ms
+ ○ Compiling /api/admin/analytics ...
+ ✓ Compiled /api/admin/analytics in 785ms (1147 modules)
+ GET /api/admin/analytics 200 in 1108ms
+ GET /api/admin/analytics 200 in 83ms
+ GET /api/notifications?limit=15 200 in 76ms
+ ✓ Compiled in 1663ms (2071 modules)
+ ✓ Compiled in 1ms (1150 modules)
+ ✓ Compiled in 0ms (1150 modules)
+ ✓ Compiled in 0ms (1150 modules)
+ GET /api/notifications?limit=15 200 in 2603ms
+ GET /api/admin/analytics 200 in 2640ms
+ ✓ Compiled /api/analytics/manager-effectiveness in 1ms (1150 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 2957ms
+ ✓ Compiled (1159 modules)
+ GET /api/notifications?limit=15 200 in 4427ms
+ GET /api/analytics/heatmap 200 in 4395ms
+ GET /api/analytics/manager-effectiveness 200 in 4441ms
+ GET /api/admin/analytics 200 in 4461ms
+ GET /api/analytics/heatmap 200 in 251ms
+ GET /api/analytics/manager-effectiveness 200 in 303ms
+ GET /api/auth/session 200 in 1117ms
+ GET /api/auth/session 200 in 710ms
+ GET /api/notifications?limit=15 200 in 108ms
+ GET /api/auth/session 200 in 762ms
+ GET /api/auth/session 200 in 784ms
+ GET /api/auth/session 200 in 796ms
+ GET /api/auth/session 200 in 705ms
+ GET /api/notifications?limit=15 200 in 394ms
+ GET /api/notifications?limit=15 200 in 114ms
+ GET /api/notifications?limit=15 200 in 54ms
+ GET /api/auth/session 200 in 924ms
+ GET /api/notifications?limit=15 200 in 123ms
+ GET /api/auth/session 200 in 858ms
+ GET /api/notifications?limit=15 200 in 84ms
+ GET /api/notifications?limit=15 200 in 97ms
+ GET /api/auth/session 200 in 703ms
+ GET /api/auth/session 200 in 809ms
+ GET /api/auth/session 200 in 742ms
+ GET /api/notifications?limit=15 200 in 44ms
+ GET /api/notifications?limit=15 200 in 46ms
+ ✓ Compiled in 1045ms (2067 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 138ms
+ GET /api/auth/session 200 in 930ms
+ ✓ Compiled in 762ms (921 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 78ms
+ ✓ Compiled in 2.4s (2067 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 276ms
+ GET /api/notifications?limit=15 200 in 104ms
+ GET /api/notifications?limit=15 200 in 76ms
+ GET /api/auth/session 200 in 820ms
+ GET /api/notifications?limit=15 200 in 49ms
+ GET /api/auth/session 200 in 722ms
+ GET /api/auth/session 200 in 766ms
+ GET /api/notifications?limit=15 200 in 50ms
+ GET /api/auth/session 200 in 713ms
+ GET /admin/analytics 200 in 558ms
+ ○ Compiling /api/admin/analytics ...
+ ✓ Compiled /api/admin/analytics in 802ms (1150 modules)
+ GET /api/auth/session 200 in 2776ms
+ GET /api/notifications?limit=15 200 in 2922ms
+ GET /api/admin/analytics 200 in 3152ms
+ GET /api/notifications?limit=15 200 in 309ms
+ GET /api/admin/analytics 200 in 845ms
+ ○ Compiling /api/analytics/manager-effectiveness ...
+ ✓ Compiled /api/analytics/manager-effectiveness in 3.3s (1156 modules)
+ ✓ Compiled (1159 modules)
+ GET /api/analytics/heatmap 200 in 5169ms
+ GET /api/analytics/manager-effectiveness 200 in 5199ms
+ GET /api/analytics/heatmap 200 in 251ms
+ GET /api/analytics/manager-effectiveness 200 in 252ms
+ GET /admin/analytics?_rsc=7569r 200 in 285ms
+ GET /api/auth/session 200 in 704ms
+ GET /api/auth/session 200 in 709ms
+ GET /api/notifications?limit=15 200 in 84ms
+ GET /api/auth/session 200 in 733ms
+ ✓ Compiled in 961ms (2080 modules)
+ GET /admin/analytics?_rsc=7569r 200 in 130ms
+ GET /api/notifications?limit=15 200 in 43ms
+ GET /api/notifications?limit=15 200 in 75ms
+ GET /api/auth/session 200 in 832ms
+ GET /admin/analytics 200 in 583ms
+ GET /api/notifications?limit=15 200 in 171ms
+ GET /api/auth/session 200 in 947ms
+ GET /api/admin/analytics 200 in 1024ms
+ GET /api/notifications?limit=15 200 in 186ms
+ GET /api/admin/analytics 200 in 253ms
+ GET /api/analytics/heatmap 200 in 221ms
+ GET /api/analytics/manager-effectiveness 200 in 253ms
+ GET /api/analytics/heatmap 200 in 122ms
+ GET /api/analytics/manager-effectiveness 200 in 165ms
+ GET /api/auth/session 200 in 707ms
+ GET /api/notifications?limit=15 200 in 91ms
+ GET /api/notifications?limit=15 200 in 253ms
+ GET /api/auth/session 200 in 1023ms
+ GET /api/notifications?limit=15 200 in 43ms
+ GET /api/auth/session 200 in 734ms
+ GET /api/notifications?limit=15 200 in 119ms
+ GET /api/notifications?limit=15 200 in 97ms
+ GET /api/notifications?limit=15 200 in 76ms
+ GET /api/notifications?limit=15 200 in 73ms
+ GET /api/notifications?limit=15 200 in 164ms
+ GET /api/auth/session 200 in 861ms
+ GET /api/notifications?limit=15 200 in 48ms
+ GET /api/notifications?limit=15 200 in 86ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 87ms
+ GET /api/notifications?limit=15 200 in 1245ms
+ GET /api/auth/session 200 in 1226ms
+ ○ Compiling /admin/reports ...
+ ✓ Compiled /admin/reports in 1667ms (1151 modules)
+ ✓ Compiled /api/goals in 504ms (1155 modules)
+ ✓ Compiled (1157 modules)
+ GET /api/goals 200 in 1526ms
+ GET /api/admin/reports?year=2026 200 in 1565ms
+ GET /api/goals 200 in 139ms
+ GET /api/admin/reports?year=2026 200 in 175ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 114ms
+ GET /api/notifications?limit=15 200 in 105ms
+ GET /api/notifications?limit=15 200 in 998ms
+ GET /api/auth/session 200 in 941ms
+ GET /api/notifications?limit=15 200 in 103ms
+ ✓ Compiled in 584ms (921 modules)
+ GET /admin/reports?_rsc=rdc1t 200 in 65ms
+ GET /api/notifications?limit=15 200 in 39ms
+ ✓ Compiled in 395ms (921 modules)
+ GET /admin/reports?_rsc=rdc1t 200 in 56ms
+ ✓ Compiled in 570ms (921 modules)
+ GET /admin/reports?_rsc=rdc1t 200 in 77ms
+ ✓ Compiled in 468ms (921 modules)
+ GET /admin/reports?_rsc=rdc1t 200 in 55ms
+ GET /api/notifications?limit=15 200 in 41ms
+ GET /api/notifications?limit=15 200 in 1309ms
+ GET /api/auth/session 200 in 1258ms
+ ○ Compiling /admin/goals ...
+ ✓ Compiled /admin/goals in 2.4s (1144 modules)
+ ○ Compiling /api/goals ...
+ ✓ Compiled /api/goals in 710ms (1147 modules)
+ GET /api/goals 200 in 1061ms
+ GET /api/goals 200 in 74ms
+ GET /api/auth/session 200 in 789ms
+ GET /api/notifications?limit=15 200 in 34ms
+ GET /api/auth/session 200 in 748ms
+ ✓ Compiled /api/admin/reports in 445ms (1144 modules)
+ GET /api/goals 200 in 1233ms
+ GET /api/admin/reports?year=2026 200 in 1329ms
+ GET /api/goals 200 in 199ms
+ ○ Compiling /admin/completion ...
+ ✓ Compiled /admin/completion in 1041ms (1148 modules)
+ GET /api/admin/reports?year=2026 200 in 1744ms
+ GET /api/notifications?limit=15 200 in 122ms
+ ○ Compiling /api/admin/completion ...
+ ✓ Compiled /api/admin/completion in 3.3s (1151 modules)
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 3659ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 160ms
+ ○ Compiling /admin/cycles ...
+ ✓ Compiled /admin/cycles in 1137ms (631 modules)
+ ○ Compiling /api/admin/cycles ...
+ ✓ Compiled /api/admin/cycles in 532ms (634 modules)
+ GET /api/admin/cycles 200 in 808ms
+ GET /api/admin/cycles 200 in 67ms
+ GET /api/notifications?limit=15 200 in 41ms
+ GET /api/notifications?limit=15 200 in 94ms
+ GET /api/notifications?limit=15 200 in 1344ms
+ GET /api/auth/session 200 in 1342ms
+ GET /api/notifications?limit=15 200 in 88ms
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 1669ms (624 modules)
+ GET /admin/dashboard 200 in 2313ms
+ GET /api/notifications?limit=15 200 in 228ms
+ ○ Compiling /api/admin/completion ...
+ ✓ Compiled /api/admin/completion in 1699ms (629 modules)
+ ✓ Compiled (631 modules)
+ GET /api/auth/session 200 in 3854ms
+ GET /api/notifications?limit=15 200 in 3840ms
+ GET /api/admin/stats 200 in 4126ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 4143ms
+ GET /api/admin/stats 200 in 316ms
+ GET /api/admin/completion?quarter=Q2&year=2026 200 in 340ms
+ GET /api/notifications?limit=15 200 in 81ms
+ GET /api/notifications?limit=15 200 in 117ms
+ GET /api/notifications?limit=15 200 in 107ms
+ GET /api/notifications?limit=15 200 in 89ms
+ GET /api/notifications?limit=15 200 in 96ms
+ GET /api/notifications?limit=15 200 in 54ms
+ ✓ Compiled in 1213ms (921 modules)
+ GET /admin/dashboard?_rsc=ni5m1 200 in 129ms
+ GET /api/notifications?limit=15 200 in 62ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 91ms
+ GET /api/notifications?limit=15 200 in 892ms
+ GET /api/auth/session 200 in 896ms
+ ○ Compiling /api/escalations/logs ...
+ ✓ Compiled /api/escalations/logs in 955ms (627 modules)
+ ✓ Compiled (630 modules)
+ GET /api/escalations/rules 200 in 1914ms
+ GET /api/escalations/logs 200 in 1922ms
+ GET /api/escalations/rules 200 in 140ms
+ GET /api/escalations/logs 200 in 160ms
+ GET /admin/escalations?_rsc=j2mph 200 in 208ms
+ ✓ Compiled in 902ms (921 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 91ms
+ GET /api/notifications?limit=15 200 in 71ms
+ ✓ Compiled in 1960ms (1547 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 475ms
+ ✓ Compiled in 610ms (1547 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 187ms
+ GET /api/auth/session 200 in 710ms
+ ✓ Compiled in 1085ms (1547 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 206ms
+ GET /api/notifications?limit=15 200 in 93ms
+ ✓ Compiled in 1182ms (1547 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 234ms
+ GET /api/notifications?limit=15 200 in 123ms
+ GET /api/notifications?limit=15 200 in 129ms
+ GET /api/auth/session 200 in 817ms
+ GET /api/notifications?limit=15 200 in 86ms
+ GET /api/auth/session 200 in 730ms
+ GET /api/notifications?limit=15 200 in 58ms
+ GET /api/auth/session 200 in 716ms
+ GET /api/notifications?limit=15 200 in 131ms
+ ✓ Compiled in 931ms (1541 modules)
+ GET /admin/escalations?_rsc=j2mph 200 in 158ms
+ GET /api/notifications?limit=15 200 in 43ms
+ GET /api/notifications?limit=15 200 in 928ms
+ GET /api/auth/session 200 in 892ms
+ GET /admin/escalations 200 in 373ms
+ GET /api/notifications?limit=15 200 in 208ms
+ ○ Compiling /api/escalations/logs ...
+ ✓ Compiled /api/escalations/logs in 527ms (623 modules)
+ ✓ Compiled (626 modules)
+ GET /api/auth/session 200 in 3576ms
+ GET /api/escalations/rules 200 in 4002ms
+ GET /api/escalations/logs 200 in 4093ms
+ GET /api/notifications?limit=15 200 in 3891ms
+ GET /api/escalations/rules 200 in 242ms
+ GET /api/escalations/logs 200 in 281ms
+ GET /admin/escalations?_rsc=j2mph 200 in 548ms
+ ✓ Compiled /api/escalations/logs/[id]/resolve in 441ms (628 modules)
+ PUT /api/escalations/logs/6a09f06995b26410bc6e8da7/resolve 200 in 2206ms
+ PUT /api/escalations/logs/6a09f06995b26410bc6e8da7/resolve 200 in 186ms
+ GET /api/escalations/logs 200 in 76ms
+ GET /api/escalations/logs 200 in 72ms
+ GET /api/notifications?limit=15 200 in 105ms
+ GET /api/notifications?limit=15 200 in 100ms
+ GET /api/notifications?limit=15 200 in 83ms
+ GET /api/notifications?limit=15 200 in 90ms
+ GET /api/notifications?limit=15 200 in 111ms
+ GET /api/notifications?limit=15 200 in 105ms
+ GET /api/auth/session 200 in 1093ms
+ GET /api/notifications?limit=15 200 in 90ms
+ GET /api/notifications?limit=15 200 in 91ms
+ GET /api/notifications?limit=15 200 in 52ms
+ GET /api/auth/session 200 in 722ms
+ GET /api/notifications?limit=15 200 in 102ms
+ GET /api/notifications?limit=15 200 in 47ms
+ GET /api/notifications?limit=15 200 in 83ms
+ GET /api/notifications?limit=15 200 in 288ms
+ GET /api/notifications?limit=15 200 in 91ms
+ GET /api/notifications?limit=15 200 in 43ms
+ GET /api/notifications?limit=15 200 in 42ms
+ GET /api/notifications?limit=15 200 in 74ms
+ GET /api/notifications?limit=15 200 in 82ms
+ GET /api/notifications?limit=15 200 in 889ms
+ GET /api/auth/session 200 in 867ms
+ GET /api/notifications?limit=15 200 in 80ms
+ GET /api/notifications?limit=15 200 in 43ms
+ GET /api/notifications?limit=15 200 in 107ms
+ GET /api/notifications?limit=15 200 in 113ms
+ GET /api/notifications?limit=15 200 in 110ms
+ GET /api/notifications?limit=15 200 in 150ms
+ GET /api/notifications?limit=15 200 in 75ms
+ GET /api/notifications?limit=15 200 in 111ms
+ GET /api/notifications?limit=15 200 in 99ms
+ GET /api/notifications?limit=15 200 in 73ms
+ GET /api/notifications?limit=15 200 in 83ms

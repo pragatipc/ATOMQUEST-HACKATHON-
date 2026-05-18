@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  /* Legacy classes kept for backward compatibility */
+  .glass-card {
+    @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+  }
+
+  .gradient-primary {
+    @apply bg-indigo-600;
+  }
+
+  .gradient-sidebar {
+    @apply bg-white;
+  }
+
+  .nav-active {
+    @apply bg-indigo-50 text-indigo-700;
+  }
+
+  .nav-inactive {
+    @apply text-slate-600 hover:bg-slate-50 hover:text-slate-900;
+  }
+
+  .shadow-card {
+    @apply shadow-md;
+  }
+
+  .shadow-soft {
+    @apply shadow-sm;
+  }
+}
+
+/* Smooth animations for toast */
+@keyframes slide-in-from-right-8 {
+  from { transform: translateX(2rem); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animate-in {
+  animation-fill-mode: both;
+}
+
+.slide-in-from-right-8 {
+  animation-name: slide-in-from-right-8;
+}
+
+.duration-300 {
+  animation-duration: 300ms;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-slate-200;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-300;
+}
