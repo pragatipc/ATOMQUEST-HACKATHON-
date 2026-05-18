@@ -67,19 +67,14 @@ export async function POST(req: NextRequest) {
 
     // ─── Check-in window enforcement ────────────────────────────────────────
     // BRD §2.3: quarterly check-ins must happen within the active Cycle window.
-    // Admins bypass this rule for exception handling.
+    // We only enforce when a Cycle is explicitly marked ACTIVE — admins can
+    // deactivate cycles to allow off-window entry. Admins always bypass.
     if (session.user.role !== 'admin') {
-      const cycle = await Cycle.findOne({ year: Number(year), phase: quarter });
+      const cycle = await Cycle.findOne({ year: Number(year), phase: quarter, isActive: true });
       if (cycle) {
         const now = Date.now();
         const open = new Date(cycle.windowOpen).getTime();
         const close = new Date(cycle.windowClose).getTime();
-        if (!cycle.isActive) {
-          return NextResponse.json(
-            { error: `${quarter} ${year} check-in window is not active. Contact admin to reopen.` },
-            { status: 403 }
-          );
-        }
         if (now < open) {
           return NextResponse.json(
             { error: `${quarter} ${year} check-in window opens on ${new Date(open).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}.` },
@@ -93,7 +88,7 @@ export async function POST(req: NextRequest) {
           );
         }
       }
-      // If no Cycle config exists for this quarter, we allow the entry (admin hasn't set windows yet).
+      // If no ACTIVE Cycle for this quarter → allow (admin can deactivate to allow ad-hoc entry).
     }
 
     const computedScore = computeScore(goal, actualValue);
