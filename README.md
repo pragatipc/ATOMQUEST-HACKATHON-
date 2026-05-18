@@ -43,11 +43,10 @@ Built for the AtomQuest Hackathon 1.0 in-house Goal Setting & Tracking Portal ch
 
 ### Bonus Features Implemented (BRD §5)
 
-#### 5.2 — Email & Microsoft Teams Integration
+#### 5.2 — Email Notification
 - Transactional emails via **Brevo**:
   - Goal submission, approval, rework requests, check-in window opens, escalations
-- **Microsoft Teams** adaptive card notifications via incoming webhooks
-- Deep-links from email/Teams directly to the relevant goal sheet
+- Deep-links from email directly to the relevant goal sheet
 
 #### 5.3 — Rule-Based Escalation Module
 - Three configurable escalation rules in the admin UI:
