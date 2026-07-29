@@ -1,5 +1,4 @@
 # GoalTrack — Enterprise Goal Setting & Tracking Portal
-
 A full-stack web application that manages the complete employee performance lifecycle — goal creation, manager approval, quarterly check-ins, and analytics — with role-based access for Employees, Managers, and HR Admins.
 
 Built for the AtomQuest Hackathon 1.0 in-house Goal Setting & Tracking Portal challenge.
